@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body{
+    height: 50vh;
+    background-image: linear-gradient(#EBC5BD, #e0bcce);
+}
+h1{
+    margin-top: 80px;
+    color:#6E605F;
+    font-size: 60px;
+    line-height: 70px;
+}
+p{
+    font-size: 20px;
+    font-weight: normal;
+}
+.container{
+    text-align: center;
+}
+.label-anay{
+    font-size: 20px;
+    margin: 20px;
+}
+input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: #6E605F;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #EBC5BD;
+    position: absolute;
+    right: 830px;
+    outline: none;
+}
+.check-container{
+    margin: 20px;
+}
+.image{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border: #6E605F 9px solid;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.image:hover{
+    transform: scale(1.1) !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important;
+    z-index: 1;
+    position: relative;
+}
+.images-container{
+    position: absolute;
+    top: 400px;
+    margin-left: 10px;
+    border: #6E605F 2px solid;
+    width: 99rem;
+    margin: 20px;
+    border-radius: 40px;
+}
+audio{
+    margin-left: 490px;
+}
+audio::-webkit-media-controls-panel{
+    background-color: #6E605F;
+}
+audio::-webkit-media-controls-play-button{
+    background-color: #e0bcce;
+    border-radius: 50%;
+}
+audio::-webkit-media-controls-time-remaining-display{
+    color: #F8F1F3;
+}
+audio::-webkit-media-controls-timeline{
+    background-color: #e0bcce;
+    border-radius: 40px;
+}
+audio::-webkit-media-controls-mute-button{
+    background-color: #e0bcce;
+    border-radius: 50%;
+}
